@@ -1,3 +1,4 @@
+all done
 # Ember Objects
 While you may never have to write your own Ember Object, you should know how they work since everything you'll be working with inherits from it.
 
