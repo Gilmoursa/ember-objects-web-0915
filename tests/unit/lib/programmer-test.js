@@ -45,7 +45,6 @@ describe("Programmer", function(){
       let elixirConf = Conference.create({name: "Elixir Conf", keyNote: "Jose Valim"});
       matz.addConference(rubyConf);
       matz.addConference(elixirConf);
-
       expect(matz.get('conferences.length')).to.eq(2);
       expect(matz.get('keyNoteConferences')).to.include(rubyConf);
       expect(matz.get('keyNoteConferences')).to.not.include(elixirConf);
